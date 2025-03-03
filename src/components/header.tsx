@@ -52,7 +52,7 @@ const Header = () => {
           className={clsx(
             "py-3 lg:py-6 px-3 lg:px-8 mx-auto transition-all duration-300",
             scrollY > 20
-              ? "bg-[#DBDBDB87] dark:bg-[#38383887] w-[300px] md:w-full max-w-full backdrop-blur-2xl rounded-[30px] lg:rounded-[50px]"
+              ? "bg-[#DBDBDB87] dark:bg-[#38383887] w-[300px] md:w-full lg:w-fullscreen max-w-full backdrop-blur-2xl rounded-[30px] lg:rounded-[50px]"
               : "w-full bg-transparent"
           )}
         >

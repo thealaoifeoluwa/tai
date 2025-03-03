@@ -454,13 +454,13 @@ const OverflowContainer = ({
     <>
       <span
         className={clsx(
-          "block -mb-8 mt-10 min-[1165px]:hidden px-5 sm:px-10",
+          "block -mb-8 mt-10 min-[1165px]:hidden px-5 sm:container",
           className
         )}
       >
         <DragIcon />
       </span>
-      <div className="overflow-x-scroll scrollbar px-5 sm:px-10">
+      <div className="overflow-x-scroll scrollbar px-5 sm:container">
         {children}
       </div>
     </>
