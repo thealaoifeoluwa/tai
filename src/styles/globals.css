@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Telegraf";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/PPTelegraf-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Telegraf";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/PPTelegraf-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Telegraf";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/PPTelegraf-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Telegraf";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/PPTelegraf-Bold.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  transition: background-color 1s ease;
+}
