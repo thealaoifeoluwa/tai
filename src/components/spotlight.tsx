@@ -20,12 +20,12 @@ const Spotlight = () => {
     <div className="mt-9 relative text-white sm:container" data-aos="fade-up">
       <div
         ref={containerRef}
-        className="flex gap-3 overflow-x-scroll scrollbar scroll-smooth px-5"
+        className="flex gap-3 overflow-x-scroll scrollbar scroll-smooth px-5 sm:px-0"
       >
         {spotlights.map((data, index) => (
           <article
             key={index}
-            className="min-w-[307px] sm:min-w-[340px] w-[340px] h-[600px] sm:h-[680px] rounded-[32px] bg-cover bg-center px-5 sm:px-7 py-8 relative"
+            className="min-w-[307px] sm:min-w-[346px] w-[346px] h-[600px] sm:h-[680px] rounded-[32px] bg-cover bg-center px-5 sm:px-7 py-8 relative"
             style={{ backgroundImage: `url(${data.bgImage})` }}
           >
             <h3 className="font-semibold text-xl sm:text-2xl">{data.title}</h3>
