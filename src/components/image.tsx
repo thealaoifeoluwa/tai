@@ -13,7 +13,7 @@ const Image = ({ alt, className, src }: ImageType) => {
       width={0}
       height={0}
       sizes="100vw"
-      className={"w-auto h-auto " + className}
+      className={"w-auto h-auto object-cover " + className}
     />
   );
 };

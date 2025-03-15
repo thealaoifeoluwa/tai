@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "./image";
 
 export const projects = [
@@ -8,6 +9,7 @@ export const projects = [
     image: "/images/pienexa.svg",
     color: "#2E4DC0",
     imgContainerClassName: "justify-center items-center ml-10",
+    link: "/projects/pienexa",
   },
   {
     title: "Noshride mobile and website",
@@ -16,6 +18,7 @@ export const projects = [
     image: "/images/noshride.svg",
     color: "#506400",
     imgContainerClassName: "justify-center items-center",
+    link: "/projects/noshride",
   },
   {
     title: "Runshift redefining workshift",
@@ -24,6 +27,7 @@ export const projects = [
     image: "/images/runshift.svg",
     color: "#175B57",
     imgContainerClassName: "justify-end items-end mt-10 pl-10",
+    link: "/projects/runshift",
   },
   {
     title: "Redesign BigiBrand’s Website",
@@ -32,6 +36,7 @@ export const projects = [
     image: "/images/bigibrand.svg",
     color: "#8A5916",
     imgContainerClassName: "justify-end items-end pl-5",
+    link: "/projects/bigibrand",
   },
 ];
 
@@ -39,10 +44,12 @@ const CaseStudy = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 text-white">
       {projects.map((project, index) => (
-        <article
+        <Link
+          href={project.link}
           key={index}
           style={{ backgroundColor: project.color }}
           className="w-full rounded-3xl sm:rounded-[32px] backdrop-blur-md pt-5 sm:pt-9 border border-[#A6A6A659] overflow-hidden"
+          data-aos="fade-up"
         >
           <div className="px-5 sm:px-7">
             <h1 className="font-semibold text-xl sm:text-3xl">
@@ -59,7 +66,7 @@ const CaseStudy = () => {
               className="mt-5 !w-full"
             />
           </div>
-        </article>
+        </Link>
       ))}
     </div>
   );

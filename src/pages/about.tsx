@@ -8,16 +8,22 @@ const Page = () => {
     <main className="sm:pt-36 xl:pt-56">
       <section className="sm:container flex flex-col sm:flex-row justify-center 2xl:justify-end relative">
         <Image
-          src="/images/me.png"
+          src="/images/alao-ifeoluwa.png"
           alt="Alao Ifeoluwa"
           className="min-w-full sm:min-w-[400px] sm:relative left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
         />
 
         <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-6 sm:mt-0">
-          <h1 className="text-[30px] lg:text-[40px] 2xl:text-[60px] font-semibold sm:text-center px-5">
+          <h1
+            className="text-[30px] lg:text-[40px] 2xl:text-[60px] font-semibold sm:text-center px-5"
+            data-aos="fade-up"
+          >
             Hola👋
           </h1>
-          <div className="2xl:mt-5 text-sm lg:text-base 2xl:text-lg sm:bg-[#EDEDED] dark:sm:bg-[#121212] rounded-3xl px-5 lg:px-8 py-5 lg:py-10 sm:w-[300px] lg:w-[376px]">
+          <div
+            data-aos="fade-up"
+            className="2xl:mt-5 text-sm lg:text-base 2xl:text-lg sm:bg-[#EDEDED] dark:sm:bg-[#121212] rounded-3xl px-5 lg:px-8 py-5 lg:py-10 sm:w-[300px] lg:w-[376px]"
+          >
             <p className="font-medium">
               My Name is Ifeoluwa Alao. I{"'"}m a designer that is BIG on
               solving problems based on the data available or gotten from user
@@ -38,21 +44,30 @@ const Page = () => {
       </section>
 
       <section className="mt-20 sm:mt-32 px-5 sm:container">
-        <h2 className="text-[32px] md:text-[48px] font-semibold md:text-center">
+        <h2
+          className="text-[32px] md:text-[48px] font-semibold md:text-center"
+          data-aos="fade-up"
+        >
           Highlighting Timeline & Impact
         </h2>
-        <p className="mt-4 max-w-[548px] lg:text-lg md:text-center mx-auto">
+        <p
+          className="mt-4 max-w-[548px] lg:text-lg md:text-center mx-auto"
+          data-aos="fade-up"
+        >
           Over the past 6 years, I{"'"}ve transformed user experiences across
           different projects. Get a glimpse into my work journey.
         </p>
 
-        <div className="mt-6 pb-32 sm:pb-60 relative lg:text-lg">
+        <div
+          className="mt-6 pb-32 sm:pb-60 relative lg:text-lg"
+          data-aos="fade-up"
+        >
           <span className="w-[1px] bg-[#00FF44] h-full absolute top-0 left-0 md:left-1/2 md:-translate-x-1/2" />
 
           <article className="pl-7 sm:pl-14 flex justify-end pt-20 relative">
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
-              <p>
+              <p data-aos="fade-up">
                 Lead Product Designer at SunFi <br />
                 2023 - Present • Nigeria <br />
                 I currently lead a design team that contributes to making solar
@@ -86,7 +101,7 @@ const Page = () => {
           <article className="pl-7 sm:pl-14 flex mt-32 sm:mt-40 relative">
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
-              <p>
+              <p data-aos="fade-up">
                 Contract product designer at Anchor <br />
                 2022 - 2023 • Nigeria
                 <br />
@@ -114,7 +129,7 @@ const Page = () => {
           <article className="pl-7 sm:pl-14 flex justify-end mt-32 sm:mt-40 relative">
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
-              <p>
+              <p data-aos="fade-up">
                 Visual Designer at Daydreams <br />
                 2019 - 2020 • Nigeria
                 <br />
@@ -137,9 +152,15 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="py-16 sm:py-28 bg-[#F5F5F5] dark:bg-[#171717] backdrop-blur-md rounded-[32px]">
+      <section
+        className="py-16 sm:py-28 bg-[#F5F5F5] dark:bg-[#171717] backdrop-blur-md rounded-[32px]"
+        data-aos="fade-up"
+      >
         <div className="px-5 sm:container">
-          <h2 className="text-[32px] md:text-[40px] font-semibold text-primary md:text-center">
+          <h2
+            className="text-[32px] md:text-[40px] font-semibold text-primary md:text-center"
+            data-aos="fade-up"
+          >
             Volunteering
           </h2>
 
@@ -149,7 +170,10 @@ const Page = () => {
             ))}
           </div>
 
-          <h2 className="text-[32px] md:text-[40px] font-semibold text-primary md:text-center mt-28">
+          <h2
+            className="text-[32px] md:text-[40px] font-semibold text-primary md:text-center mt-28"
+            data-aos="fade-up"
+          >
             Certifications
           </h2>
 
@@ -167,7 +191,10 @@ const Page = () => {
 const Box = ({ data }: { data: (typeof volunteering)[0] }) => {
   const { link, date, title } = data;
   return (
-    <article className="px-5 py-4 bg-[#D1D1D1] dark:bg-[#2E2E2E] rounded-3xl md:rounded-[32px] border border-[#A6A6A659] flex justify-between items-start md:items-center">
+    <article
+      data-aos="fade-up"
+      className="px-5 py-4 bg-[#D1D1D1] dark:bg-[#2E2E2E] rounded-3xl md:rounded-[32px] border border-[#A6A6A659] flex justify-between items-start md:items-center"
+    >
       <div className="font-semibold  md:text-[24px] lg:text-[28px]">
         <h4>{title}</h4>
         <span className="text-[#A3A3A3]">{date}</span>

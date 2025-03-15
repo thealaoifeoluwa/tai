@@ -77,10 +77,7 @@ const Header = () => {
             </button>
 
             <div className="md:flex gap-7 hidden">
-              <Link
-                href="/projects/pienexa"
-                className="hover:text-primary font-medium"
-              >
+              <Link href="/projects" className="hover:text-primary font-medium">
                 Projects
               </Link>
               <Link href="/about" className="hover:text-primary font-medium">
@@ -137,7 +134,7 @@ const Header = () => {
         </div>
         <div className="mt-7 flex flex-col gap-2 justify-between h-[calc(90%_-_20px)]">
           <div className="flex flex-col items-center justify-between h-[40%]">
-            <Link href="/projects/pienexa" className="text-[52px] font-medium">
+            <Link href="/projects" className="text-[52px] font-medium">
               Project
             </Link>
             <Link href="/about" className="text-[52px] font-medium">
