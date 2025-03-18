@@ -16,12 +16,12 @@ const Page = () => {
     <main>
       <section className="min-h-[540px] md:min-h-[636px] w-full bg-orange-500 rounded-b-2xl sm:rounded-b-3xl overflow-clip relative">
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560482/Tai%20portfolio/Bigibrand/Frame_402246_d8lcuf.png"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336485/Tai%20portfolio/Bigibrand/Hero_tngtwt.svg"
           alt="Pienexa cover image"
           className="w-full h-full absolute inset-0 hidden sm:block"
         />
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560466/Tai%20portfolio/Bigibrand/Frame_402247_p3g3uh.png"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336492/Tai%20portfolio/Bigibrand/Hero_small_tk1hat.svg"
           alt="Pienexa cover image"
           className="w-full h-full absolute inset-0 sm:hidden"
         />
@@ -141,7 +141,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560465/Tai%20portfolio/Bigibrand/Frame_402245_mvl0g9.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336481/Tai%20portfolio/Bigibrand/sitemap_tpccod.svg"
             alt="architecture design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -167,7 +167,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560465/Tai%20portfolio/Bigibrand/Frame_402189_s4q5jg.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336482/Tai%20portfolio/Bigibrand/Lowfi_pxv4ee.svg"
             alt="homepage design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -198,7 +198,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560467/Tai%20portfolio/Bigibrand/Frame_17_iuutwt.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336926/Tai%20portfolio/Bigibrand/Style_guide_jg7gu2.png"
             alt="style-guide design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -223,7 +223,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560484/Tai%20portfolio/Bigibrand/Free_MacBook_Pro_mockup_on_stone_pedestal_Mockuuups_Studio_z9rsdz.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336488/Tai%20portfolio/Bigibrand/mockup1_dkxwda.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -241,7 +241,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560488/Tai%20portfolio/Bigibrand/Free_Macbook_Pro_Space_Gray_mockup_on_the_wooden_table_Mockuuups_Studio_ckmvbj.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336494/Tai%20portfolio/Bigibrand/mockup2_nldehw.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -249,7 +249,7 @@ const Page = () => {
         </OverflowContainer>
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560478/Tai%20portfolio/Bigibrand/Frame_402242_fx9zfv.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742336489/Tai%20portfolio/Bigibrand/mockup3_ed25oh.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"

@@ -16,13 +16,13 @@ const Page = () => {
     <main>
       <section className="min-h-[540px] md:min-h-[636px] w-full bg-green-900 rounded-b-2xl sm:rounded-b-3xl overflow-clip relative">
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560717/Tai%20portfolio/Noshride/Frame_402226_fnmfcs.png"
-          alt="Pienexa cover image"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326511/Tai%20portfolio/Noshride/hero_m3kima.svg"
+          alt="Noshride cover image"
           className="w-full h-full absolute inset-0 hidden sm:block"
         />
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560877/Tai%20portfolio/Noshride/Frame_402182_lv0dg9.png"
-          alt="Pienexa cover image"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326503/Tai%20portfolio/Noshride/hero_small_h3l0q2.svg"
+          alt="Noshride cover image"
           className="w-full h-full absolute inset-0 sm:hidden"
         />
 
@@ -32,7 +32,7 @@ const Page = () => {
           </button>
 
           <h1 className="mt-14 font-bold text-[40px] md:text-[50px] lg:text-[64px] text-white max-w-[615px]">
-            Making delivery fast and accessible
+            Making Food delivery fast and accessible
           </h1>
 
           <div className="flex gap-4 items-center mt-16 pb-10">
@@ -143,7 +143,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742309164/Tai%20portfolio/Noshride/how-do-we_pkrkuj.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326492/Tai%20portfolio/Noshride/problem_tsp5xz.svg"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -260,7 +260,7 @@ const Page = () => {
 
         <OverflowContainer className="!mt-5">
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559718/Tai%20portfolio/Noshride/Frame_402203_wncwub.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326512/Tai%20portfolio/Noshride/stakeholders_note_sbdqpc.svg"
             alt="stakeholder note"
             className="mt-2 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -318,7 +318,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559727/Tai%20portfolio/Noshride/Frame_402221_giqvmg.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326493/Tai%20portfolio/Noshride/persona_kbrz1j.svg"
             alt="user persona"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -357,7 +357,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559721/Tai%20portfolio/Noshride/Noshride_App_User_flow_u819zk.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326516/Tai%20portfolio/Noshride/Noshride_App_User_flow_yqtu8f.svg"
             alt="userflow"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -384,7 +384,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560712/Tai%20portfolio/Noshride/Group_179_2_id6hbn.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326506/Tai%20portfolio/Noshride/Brand_identity_uatnya.png"
             alt="brand identity"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -411,7 +411,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559729/Tai%20portfolio/Noshride/Frame_402223_xo2xg7.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326509/Tai%20portfolio/Noshride/Case_study_1_pblybm.svg"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -420,7 +420,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559800/Tai%20portfolio/Noshride/Frame_402225_c8tvma.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742326515/Tai%20portfolio/Noshride/Case_study_2_f3fvi5.svg"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -435,17 +435,17 @@ const Page = () => {
             Learning & Challenges
           </h3>
           <p className="mt-5 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
-            I’ve always understood that design is an ongoing process. Building
-            the Pienexa mobile app reinforced the importance of inclusivity,
-            highlighting the need to create a design that serves diverse age
-            groups, cultures, and user types seamlessly.
+            Designing Noshride was a collaborative journey that reinforced the power of teamwork and user feedback. Early on, while testing with real users, a restaurant partner pointed out that the menu filtering system was confusing, 
+            while a delivery driver struggled with the order tracking interface. Working closely with my team, we simplified the filtering options and redesigned the tracking screen for better clarity. Scalability also became a shared 
+            priority—we started small but built a flexible design system that could easily expand to new cities without a complete overhaul.
           </p>
           <p className="mt-5 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
-            One of the biggest challenges was time, as Noshride aimed for a
-            rapid launch. Meeting this tight deadline was demanding, but despite
-            the pressure, we successfully completed the design on time and
-            handed it off to the engineering team for development.
+            Balancing aesthetics with functionality was another key lesson. Initially, I focused on a sleek UI, but after discussions with developers and product managers, 
+            we realized that clear call-to-action buttons and an effortless checkout flow were more critical for conversions. Throughout the process, 
+            close collaboration with engineers helped translate our design vision into reality, making Noshride a seamless and inclusive food delivery experience for all.
           </p>
+          
+        
         </div>
       </section>
 

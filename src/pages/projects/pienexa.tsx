@@ -15,12 +15,12 @@ const Page = () => {
     <main>
       <section className="min-h-[540px] md:min-h-[636px] w-full bg-blue-900 rounded-b-2xl sm:rounded-b-3xl overflow-clip relative">
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741561122/Tai%20portfolio/Pienexa/Frame_402219_fxhdbh.png"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332807/Tai%20portfolio/Pienexa/hero_mtckd0.svg"
           alt="Pienexa cover image"
           className="w-full h-full absolute inset-0 hidden sm:block"
         />
         <Image
-          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741561116/Tai%20portfolio/Pienexa/Frame_402218_zqcpof.png"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332804/Tai%20portfolio/Pienexa/Hero_small_i5psnk.svg"
           alt="Pienexa cover image"
           className="w-full h-full absolute inset-0 sm:hidden"
         />
@@ -39,10 +39,10 @@ const Page = () => {
               href="#"
               className="bg-black text-white text-xs sm:text-base rounded-2xl border border-[#A6A6A659] p-5 font-semibold text-nowrap"
             >
-              See the live version
+              See the Design
             </Link>
             <Link
-              href="#"
+              href="https://www.figma.com/design/c0WPzXJ2YZrG4x8fmiDTTf/Pienexa?node-id=3-3690&t=TmPsGacx04UzTOpl-1"
               className="bg-black rounded-2xl border border-[#A6A6A659] p-2.5 font-semibold"
             >
               <PlainArrowIconAlt />
@@ -66,8 +66,8 @@ const Page = () => {
                 trading platform with seamless experience.
               </p>
               <p className="mt-5 sm:text-lg" data-aos="fade-up">
-                As a product designer, I joined forces with another product
-                designer based in UK to collaborate and work closely with
+                As a product designer, I collaborated with another product
+                designer based in Milton Keynes, England, United Kingdom and work closely with the
                 BigiBrand{"'"}s Brand team to create a revolutionary trading
                 experience, crafting a strong brand strategy and visual identity
                 for mobile and web.
@@ -99,13 +99,13 @@ const Page = () => {
                   Other Collaboration
                 </span>
                 <Link
-                  href=""
+                  href="https://www.linkedin.com/in/simisoladeniran/"
                   className="font-medium sm:text-lg block underline underline-offset-2"
                 >
                   Adeniran Simi
                 </Link>
                 <Link
-                  href=""
+                  href="https://www.bigibrand.com/"
                   className="font-medium text-lg block underline underline-offset-2"
                 >
                   BigiBrand
@@ -160,7 +160,7 @@ const Page = () => {
           >
             <h4 className="text-4xl font-semibold text-nowrap w-full">
               How do we create a{" "}
-              <span className="p-1 bg-[#527bda] inline-block relative">
+              <span className="p-1 bg-[#0D98FF] inline-block relative">
                 business tool
                 <span className="absolute -top-20 right-10 font-normal text-sm text-nowrap">
                   WHAT (What do we want to achieve?)
@@ -170,26 +170,26 @@ const Page = () => {
                 </span>
               </span>{" "}
               that provides{" "}
-              <span className="p-1 bg-[#d5da52] inline-block relative">
+              <span className="p-1 bg-[#F9AF16] inline-block relative">
                 traders
                 <span className="absolute -top-20 right-10 font-normal text-sm text-nowrap">
-                  WHOM (Who are we designing for)
+                  WHOM (Who are we designing for?)
                 </span>
                 <span className="absolute -top-14 right-20">
                   <BendArrowIcon />
                 </span>
               </span>
             </h4>
-            <h4 className="text-4xl font-semibold p-1 bg-[#37b6e8] mt-1 inline-block relative text-nowrap w-fit">
+            <h4 className="text-4xl font-semibold p-1 bg-[#9848FE] mt-1 inline-block relative text-nowrap w-fit">
               seamless exchange and trading of fiat and crypto assets ?
               <span className="absolute -bottom-20 right-[10%] font-normal text-sm text-nowrap">
-                WHY (Why is this necessary/important ?)
+                WHY (Why is this necessary/important?)
               </span>
               <span className="absolute -bottom-14 right-1/4 rotate-180">
                 <BendArrowIcon />
               </span>
               <span className="absolute -bottom-20 left-[15%] font-normal text-sm text-nowrap">
-                WHERE (Where this will take place)
+                WHERE (Where this will take place?)
               </span>
               <span className="absolute -bottom-14 left-1/4 rotate-180 scale-x-[-1]">
                 <BendArrowIcon />
@@ -300,7 +300,7 @@ const Page = () => {
 
         <OverflowContainer className="!mt-5">
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559727/Tai%20portfolio/Pienexa/Frame_402203_jjjvwu.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332738/Tai%20portfolio/Pienexa/stakeholders_krprmk.svg"
             alt="stakeholder note"
             className="mt-2 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -350,7 +350,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559761/Tai%20portfolio/Pienexa/Frame_402210_yj5vf6.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332765/Tai%20portfolio/Pienexa/Persona_slikcd.svg"
             alt="user persona"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -388,7 +388,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559745/Tai%20portfolio/Pienexa/Noshride_App_User_flow_w8sprw.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332799/Tai%20portfolio/Pienexa/Pienexa_App_User_flow_hs65hk.svg"
             alt="userflow"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -416,7 +416,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559798/Tai%20portfolio/Pienexa/Frame_402184_yoo29v.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332803/Tai%20portfolio/Pienexa/Design_system_kyzpin.svg"
             alt="design system"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -425,7 +425,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559797/Tai%20portfolio/Pienexa/Frame_402185_yxfao6.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332815/Tai%20portfolio/Pienexa/Other_ui_component_vtovwq.svg"
             alt="ui component"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -453,7 +453,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559768/Tai%20portfolio/Pienexa/Frame_402216_fnutzn.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742332808/Tai%20portfolio/Pienexa/mobile_screens_ijhvpm.svg"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -461,13 +461,13 @@ const Page = () => {
         </OverflowContainer>
 
         <div className="px-5 sm:container">
-          <p className="mt-14 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
+          {/* <p className="mt-14 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
             Since the redesign of the app, Pienexa has been able to go into new
             markets. Launching in new countries like China. The Pienexa mobile
             app is also widely used in Canada, India, Nigeria, Ghana, United
             Kingdom, Kenya. with Access to sending money to over 35 countries in
             the world.
-          </p>
+          </p> */}
           <h3
             className="font-semibold text-[24px] sm:text-[32px] mt-14"
             data-aos="fade-up"

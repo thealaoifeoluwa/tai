@@ -40,7 +40,7 @@ export const projects = [
   {
     title: "The Pienexa signal trade tool",
     description:
-      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+      "This case study focuses on designing the Pienexa tool, enabling traders to trade fiat and crypto assets, p2p, copying trade online, providing a seamless multichannel experience.",
     image:
       "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150098/Tai%20portfolio/Frame_1000008676_fv518i.png",
     color: "#2E4DC0",
@@ -50,17 +50,17 @@ export const projects = [
   {
     title: "Noshride mobile and website",
     description:
-      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+      "This case study focuses on designing the Noshride real-time delivery system which involves real-time synchronization between users, riders and vendors with an admin dashboard to manage the business operations.",
     image:
       "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150097/Tai%20portfolio/Frame_1000008675_ovesqr.png",
     color: "#506400",
-    imgContainerClassName: "justify-center items-center mt-5",
+    imgContainerClassName: "justify-center items-center mt-10",
     link: "/projects/noshride",
   },
   {
     title: "Runshift redefining workshift",
     description:
-      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+      "This case study focuses on designing the Runshift 360 tool, which enables institutions and businesses to manage staff shifts, payroll and reports, helping businesses to have a smooth operations.",
     image:
       "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150097/Tai%20portfolio/iPad_Pro_Right_View_Mockup_gxfirv.png",
     color: "#175B57",
@@ -70,11 +70,11 @@ export const projects = [
   {
     title: "Redesign BigiBrand’s Website",
     description:
-      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+      "This case study highlights the redesign of BigiBrand's website, collaborating with brand designers to create a cohesive brand identity system that aligns with the company's objectives.",
     image:
       "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150098/Tai%20portfolio/Macbook_Pro_Mockup_-_2018_2_wp9rwr.png",
     color: "#8A5916",
-    imgContainerClassName: "justify-end items-end pl-5 mt-14",
+    imgContainerClassName: "justify-end items-end pl-5 mt-24",
     link: "/projects/bigibrand",
   },
 ];
@@ -83,17 +83,17 @@ export const volunteering = [
   {
     title: "Design Mentor at ADPlist",
     date: "2024 - Present",
-    link: "#",
+    link: "https://adplist.org/mentors/alao-ifeoluwa-ai",
   },
   {
     title: "UXUI Tutor at Pedagogic Hub",
     date: "2023 - Present",
-    link: "#",
+    link: "https://pedagogichub.com/",
   },
   {
     title: "Product Designer at Otherfaces.tech",
     date: "2022 - Present",
-    link: "#",
+    link: "https://www.otherfacesoftech.com/",
   },
 ];
 
@@ -101,31 +101,31 @@ export const certifications = [
   {
     title: "Meta Front-End Developer",
     date: "2024",
-    link: "#",
+    link: "https://drive.google.com/file/d/1yyWz-P-g3fR0-UNDWrkpcRqJfXAjzg2N/view?usp=drive_link",
   },
   {
     title: "Google UX design Professional",
     date: "2022",
-    link: "#",
+    link: "https://drive.google.com/file/d/1LFRbq-umD1OwBp4wHnQwJnjU_DTjRKNO/view?usp=drive_link",
   },
   {
     title: "Business Expansion Fundamentals from YaliNetwork",
     date: "2020",
-    link: "#",
+    link: "https://drive.google.com/file/d/1JXD4l2bf7JX0I31HwThWL2YmJNxjcD61/view?usp=drive_link",
   },
   {
     title: "Cert Prep: Adobe Certified Associate from Linkedin",
     date: "2020",
-    link: "#",
+    link: "https://drive.google.com/file/d/1IeM4lSPJnQ90C60YelWlPxZSa0HHFQmh/view?usp=drive_link",
   },
   {
     title: "Interaction Design for the Web and App from Linkedin",
     date: "2020",
-    link: "#",
+    link: "https://drive.google.com/file/d/1C95BniEAZJc5Zk0Io6HOOJbg3rE0ebxa/view?usp=drive_link",
   },
   {
     title: "Google Digital Skills for Africa",
     date: "2019",
-    link: "#",
+    link: "https://drive.google.com/file/d/1nM26ACcf_WKC6S17KSLnBrenKA-mT9vF/view?usp=drive_link",
   },
 ];
