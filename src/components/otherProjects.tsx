@@ -1,4 +1,3 @@
-import Image from "@/components/image";
 import { PlainArrowIcon } from "@/icons/arrow";
 import Link from "next/link";
 import Video from "./video";

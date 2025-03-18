@@ -9,24 +9,19 @@ type VideoProps = React.ComponentPropsWithoutRef<"video"> & {
 
 const Video = forwardRef<HTMLVideoElement, VideoProps>(
   ({ className, src, ...props }, ref) => {
-    // Safely convert `src` to a string
     const srcString = typeof src === "string" ? src : String(src);
     const isCloudVideo = srcString.includes("res.cloudinary.com");
 
-    // Generate lowResSrc only for Cloudinary images
     const lowResSrcImage = isCloudVideo
       ? srcString.replace(
           "/upload/",
-          // "/upload/w_100,h_100,e_blur:200,c_thumb,q_auto,f_jpg/"
-          // "/upload/w_100,h_100,c_fill,e_blur:200,q_auto,f_jpg/"
           "/upload/h_50,e_blur:200,c_scale,q_auto,f_webp/"
         )
       : "";
 
     const videoRef = useRef<HTMLVideoElement>(null);
-    const lowResImageRef = useRef<HTMLImageElement>(null);
+    const lowResImageRef = useRef<HTMLDivElement>(null); // Use div wrapper for NextImage
 
-    // Handle video loading complete
     const handleVideoLoaded = () => {
       if (videoRef.current) {
         videoRef.current.style.opacity = "1";
@@ -42,43 +37,36 @@ const Video = forwardRef<HTMLVideoElement, VideoProps>(
       <div className="relative h-full">
         {/* Lower resolution image */}
         {isCloudVideo && (
-          <NextImage
-            src={lowResSrcImage}
+          <div
             ref={lowResImageRef}
-            width={0}
-            height={0}
-            sizes="100vw"
-            priority
-            className={twMerge(
-              clsx(
-                "w-full h-auto min-h-[100px] object-cover transition-opacity duration-300 z-[1]",
-                className
-              )
-            )}
-            alt="Low resolution placeholder"
-          />
+            className="absolute inset-0 transition-opacity duration-300 z-[1]"
+          >
+            <NextImage
+              src={lowResSrcImage}
+              width={0}
+              height={0}
+              sizes="100vw"
+              priority
+              className={twMerge(clsx("w-full h-full object-cover", className))}
+              alt="Low resolution placeholder"
+            />
+          </div>
         )}
 
         {/* Video */}
         <video
           {...props}
           ref={(node) => {
-            // @ts-expect-error message
-            // Assign the ref to videoRef
+            // @ts-expect-error
             videoRef.current = node;
-
-            // Forward the ref to the parent if needed
-            if (typeof ref === "function") {
-              ref(node);
-            } else if (ref) {
-              ref.current = node;
-            }
+            if (typeof ref === "function") ref(node);
+            else if (ref) ref.current = node;
           }}
           src={src}
           className={twMerge(
             clsx(
-              "w-full h-full object-cover transition-opacity duration-300",
-              isCloudVideo && "absolute inset-0 opacity-0",
+              "w-full h-full object-cover transition-opacity duration-300 opacity-0",
+              isCloudVideo && "absolute inset-0",
               className
             )
           )}
@@ -86,8 +74,7 @@ const Video = forwardRef<HTMLVideoElement, VideoProps>(
           autoPlay
           loop
           playsInline
-          // onContextMenu={(e) => e.preventDefault()}
-          onLoadedData={handleVideoLoaded}
+          onCanPlay={handleVideoLoaded} // Switch to onCanPlay for reliability
         />
       </div>
     );

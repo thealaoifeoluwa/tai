@@ -25,7 +25,7 @@ const Spotlight = () => {
         {spotlights.map((data, index) => (
           <article
             key={index}
-            className="min-w-[307px] sm:min-w-[346px] w-[346px] h-[600px] sm:h-[680px] rounded-[32px] bg-cover bg-center px-5 sm:px-7 py-8 relative"
+            className="min-w-[307px] sm:min-w-[346px] w-[346px] h-[600px] min-h-[600px] sm:h-[680px] rounded-[32px] bg-cover bg-center px-5 sm:px-7 py-8 relative"
             style={{ backgroundImage: `url(${data.bgImage})` }}
           >
             <h3 className="font-semibold text-xl sm:text-2xl">{data.title}</h3>

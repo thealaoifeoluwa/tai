@@ -18,7 +18,7 @@ export default function Home() {
           I’m Ifeoluwa Alao.
         </h1>
         <h2
-          className="mt-3 text-[20px] sm:text-[36px] leading-[38px] sm:leading-[46px] text-[#949494] font-semibold"
+          className="mt-3 text-[20px] sm:text-[34px] leading-[38px] sm:leading-[46px] text-[#949494] font-semibold"
           data-aos="fade-up"
         >
           I help businesses find the perfect balance between user needs &
@@ -86,7 +86,7 @@ export default function Home() {
         <CaseStudy />
       </section>
 
-      <section className="py-16 sm:py-44 bg-[#F5F5F5] dark:bg-[#171717] backdrop-blur-md rounded-[32px]">
+      <section className="py-16 sm:py-44 bg-[#F8F8F8] dark:bg-[#171717] backdrop-blur-md rounded-[32px]">
         <div className="">
           <div
             className="flex justify-between items-center px-5 sm:container"

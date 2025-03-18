@@ -9,13 +9,25 @@ import {
 import DragIcon from "@/icons/drag";
 import clsx from "clsx";
 import Link from "next/link";
+import Router from "next/router";
 
 const Page = () => {
   return (
     <main>
-      <section className="min-h-[540px] md:min-h-[636px] w-full bg-green-900 rounded-b-2xl sm:rounded-b-3xl">
+      <section className="min-h-[540px] md:min-h-[636px] w-full bg-green-900 rounded-b-2xl sm:rounded-b-3xl overflow-clip relative">
+        <Image
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560717/Tai%20portfolio/Noshride/Frame_402226_fnmfcs.png"
+          alt="Pienexa cover image"
+          className="w-full h-full absolute inset-0 hidden sm:block"
+        />
+        <Image
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560877/Tai%20portfolio/Noshride/Frame_402182_lv0dg9.png"
+          alt="Pienexa cover image"
+          className="w-full h-full absolute inset-0 sm:hidden"
+        />
+
         <div className="px-5 sm:container pt-28 md:pt-44" data-aos="fade-up">
-          <button>
+          <button onClick={() => Router.push("/projects")}>
             <ArrowLeftIconAlt className="size-8 sm:size-11" />
           </button>
 
@@ -131,7 +143,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/how-do-we.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742309164/Tai%20portfolio/Noshride/how-do-we_pkrkuj.svg"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -248,7 +260,7 @@ const Page = () => {
 
         <OverflowContainer className="!mt-5">
           <Image
-            src="/images/projects/noshride/stakeholder-note.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559718/Tai%20portfolio/Noshride/Frame_402203_wncwub.png"
             alt="stakeholder note"
             className="mt-2 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -306,7 +318,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/persona.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559727/Tai%20portfolio/Noshride/Frame_402221_giqvmg.png"
             alt="user persona"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -345,7 +357,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/userflow.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559721/Tai%20portfolio/Noshride/Noshride_App_User_flow_u819zk.png"
             alt="userflow"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -372,7 +384,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/brand.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560712/Tai%20portfolio/Noshride/Group_179_2_id6hbn.png"
             alt="brand identity"
             className="mt-14 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -399,7 +411,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/screen1.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559729/Tai%20portfolio/Noshride/Frame_402223_xo2xg7.png"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -408,7 +420,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/noshride/screen2.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559800/Tai%20portfolio/Noshride/Frame_402225_c8tvma.png"
             alt="mobile screens"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -441,15 +453,21 @@ const Page = () => {
         className="px-5 sm:container flex gap-5 md:justify-between items-center mt-32"
         data-aos="fade-up"
       >
-        <span className="w-[290px] md:w-[70%] font-semibold text-[20px] md:text-[38px] xl:text-[54px] h-[90px] md:h-[180px] xl:h-[225px] flex justify-center items-center flex-wrap gap-1 sm:gap-3 border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]">
+        <Link
+          href="/projects/runshift"
+          className="w-[290px] md:w-[70%] font-semibold text-[20px] md:text-[38px] xl:text-[54px] h-[90px] md:h-[180px] xl:h-[225px] flex justify-center items-center flex-wrap gap-1 sm:gap-3 border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]"
+        >
           <span className="text-[#A3A3A3]">Next Project:</span>
           Runshift
-        </span>
-        <button className="min-w-[70px] md:w-[20%] md:min-w-[160px] h-[70px] md:h-[160px] xl:h-[195px] flex justify-center items-center border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]">
+        </Link>
+        <Link
+          href="/projects/runshift"
+          className="min-w-[70px] md:w-[20%] md:min-w-[160px] h-[70px] md:h-[160px] xl:h-[195px] flex justify-center items-center border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]"
+        >
           <span>
             <PlainArrowIcon className="size-10 md:size-16" />
           </span>
-        </button>
+        </Link>
       </div>
     </main>
   );

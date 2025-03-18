@@ -153,7 +153,7 @@ const Page = () => {
       </section>
 
       <section
-        className="py-16 sm:py-28 bg-[#F5F5F5] dark:bg-[#171717] backdrop-blur-md rounded-[32px]"
+        className="py-16 sm:py-28 bg-[#F8F8F8] dark:bg-[#171717] backdrop-blur-md rounded-[32px]"
         data-aos="fade-up"
       >
         <div className="px-5 sm:container">
@@ -193,19 +193,19 @@ const Box = ({ data }: { data: (typeof volunteering)[0] }) => {
   return (
     <article
       data-aos="fade-up"
-      className="px-5 py-4 bg-[#D1D1D1] dark:bg-[#2E2E2E] rounded-3xl md:rounded-[32px] border border-[#A6A6A659] flex justify-between items-start md:items-center"
+      className="px-5 py-5 bg-[#D1D1D1] dark:bg-[#2E2E2E] rounded-3xl md:rounded-[32px] border border-[#A6A6A659] flex justify-between items-start md:items-center"
     >
-      <div className="font-semibold  md:text-[24px] lg:text-[28px]">
+      <div className="font-semibold md:text-[24px] lg:text-[28px]">
         <h4>{title}</h4>
         <span className="text-[#A3A3A3]">{date}</span>
       </div>
 
-      <div className="pt-10 md:mt-0">
+      <div className="pt-10 md:pt-0">
         <Link
           href={link}
-          className="p-2 md:p-3 lg:p-5 rounded-xl md:rounded-2xl lg:rounded-3xl grid place-content-center bg-white dark:bg-black hover:bg-primary dark:hover:bg-primary transition-all duration-500"
+          className="p-2 md:p-3 lg:p-7 rounded-xl md:rounded-2xl lg:rounded-3xl grid place-content-center bg-white dark:bg-black hover:bg-primary dark:hover:bg-primary transition-all duration-500"
         >
-          <PlainArrowIcon className="size-3.5 md:size-9" />
+          <PlainArrowIcon className="size-3.5 md:size-10" />
         </Link>
       </div>
     </article>

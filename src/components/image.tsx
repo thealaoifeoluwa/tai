@@ -1,19 +1,24 @@
+import clsx from "clsx";
 import NextImage from "next/image";
+import { twMerge } from "tailwind-merge";
 
 type ImageType = {
   src: string;
-  className?: string;
   alt: string;
-};
-const Image = ({ alt, className, src }: ImageType) => {
+  className?: string;
+  // Include all NextImage props by extending its type
+} & React.ComponentProps<typeof NextImage>;
+
+const Image = ({ src, alt, className, ...props }: ImageType) => {
   return (
     <NextImage
-      alt={alt}
       src={src}
+      alt={alt}
       width={0}
       height={0}
       sizes="100vw"
-      className={"w-auto h-auto object-cover " + className}
+      className={twMerge(clsx(`w-auto h-auto object-cover`, className))}
+      {...props}
     />
   );
 };

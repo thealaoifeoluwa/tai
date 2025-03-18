@@ -9,13 +9,25 @@ import {
 import DragIcon from "@/icons/drag";
 import clsx from "clsx";
 import Link from "next/link";
+import Router from "next/router";
 
 const Page = () => {
   return (
     <main>
-      <section className="min-h-[540px] md:min-h-[636px] w-full bg-orange-500 rounded-b-2xl sm:rounded-b-3xl">
+      <section className="min-h-[540px] md:min-h-[636px] w-full bg-orange-500 rounded-b-2xl sm:rounded-b-3xl overflow-clip relative">
+        <Image
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560482/Tai%20portfolio/Bigibrand/Frame_402246_d8lcuf.png"
+          alt="Pienexa cover image"
+          className="w-full h-full absolute inset-0 hidden sm:block"
+        />
+        <Image
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560466/Tai%20portfolio/Bigibrand/Frame_402247_p3g3uh.png"
+          alt="Pienexa cover image"
+          className="w-full h-full absolute inset-0 sm:hidden"
+        />
+
         <div className="px-5 sm:container pt-28 md:pt-44" data-aos="fade-up">
-          <button>
+          <button onClick={() => Router.push("/projects")}>
             <ArrowLeftIconAlt className="size-8 sm:size-11" />
           </button>
 
@@ -129,7 +141,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/architecture.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560465/Tai%20portfolio/Bigibrand/Frame_402245_mvl0g9.png"
             alt="architecture design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -155,7 +167,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/homepage.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560465/Tai%20portfolio/Bigibrand/Frame_402189_s4q5jg.png"
             alt="homepage design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -186,7 +198,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/style-guide.svg"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560467/Tai%20portfolio/Bigibrand/Frame_17_iuutwt.png"
             alt="style-guide design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -211,7 +223,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/macbook.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560484/Tai%20portfolio/Bigibrand/Free_MacBook_Pro_mockup_on_stone_pedestal_Mockuuups_Studio_z9rsdz.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -229,7 +241,7 @@ const Page = () => {
 
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/macbook2.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560488/Tai%20portfolio/Bigibrand/Free_Macbook_Pro_Space_Gray_mockup_on_the_wooden_table_Mockuuups_Studio_ckmvbj.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -237,7 +249,7 @@ const Page = () => {
         </OverflowContainer>
         <OverflowContainer>
           <Image
-            src="/images/projects/bigibrand/macbook3.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741560478/Tai%20portfolio/Bigibrand/Frame_402242_fx9zfv.png"
             alt="bigibrand website on macbook design"
             className="mt-12 inline-block min-w-[1057px]"
             data-aos="fade-up"
@@ -249,15 +261,21 @@ const Page = () => {
         className="px-5 sm:container flex gap-5 md:justify-between items-center mt-32"
         data-aos="fade-up"
       >
-        <span className="w-[290px] md:w-[70%] font-semibold text-[20px] md:text-[38px] xl:text-[54px] h-[90px] md:h-[180px] xl:h-[225px] flex justify-center items-center flex-wrap gap-1 sm:gap-3 border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]">
+        <Link
+          href="/projects/pienexa"
+          className="w-[290px] md:w-[70%] font-semibold text-[20px] md:text-[38px] xl:text-[54px] h-[90px] md:h-[180px] xl:h-[225px] flex justify-center items-center flex-wrap gap-1 sm:gap-3 border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]"
+        >
           <span className="text-[#A3A3A3]">Next Project:</span>
-          Runshift
-        </span>
-        <button className="min-w-[70px] md:w-[20%] md:min-w-[160px] h-[70px] md:h-[160px] xl:h-[195px] flex justify-center items-center border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]">
+          Pienexa
+        </Link>
+        <Link
+          href="/projects/pienexa"
+          className="min-w-[70px] md:w-[20%] md:min-w-[160px] h-[70px] md:h-[160px] xl:h-[195px] flex justify-center items-center border-2 md:border-4 border-[#A6A6A659] rounded-[24px] md:rounded-[50px] xl:rounded-[67px]"
+        >
           <span>
             <PlainArrowIcon className="size-10 md:size-16" />
           </span>
-        </button>
+        </Link>
       </div>
     </main>
   );

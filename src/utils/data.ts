@@ -36,6 +36,49 @@ export const spotlights = [
   },
 ];
 
+export const projects = [
+  {
+    title: "The Pienexa signal trade tool",
+    description:
+      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+    image:
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150098/Tai%20portfolio/Frame_1000008676_fv518i.png",
+    color: "#2E4DC0",
+    imgContainerClassName: "justify-center items-center ml-10",
+    link: "/projects/pienexa",
+  },
+  {
+    title: "Noshride mobile and website",
+    description:
+      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+    image:
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150097/Tai%20portfolio/Frame_1000008675_ovesqr.png",
+    color: "#506400",
+    imgContainerClassName: "justify-center items-center",
+    link: "/projects/noshride",
+  },
+  {
+    title: "Runshift redefining workshift",
+    description:
+      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+    image:
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150097/Tai%20portfolio/iPad_Pro_Right_View_Mockup_gxfirv.png",
+    color: "#175B57",
+    imgContainerClassName: "justify-end items-end mt-10 pl-10",
+    link: "/projects/runshift",
+  },
+  {
+    title: "Redesign BigiBrand’s Website",
+    description:
+      "This case study focuses on designing the Nomba unified tool, enabling entrepreneurs to manage outlets, POS payments, and their business bank account, providing a seamless multichannel experience.",
+    image:
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150098/Tai%20portfolio/Macbook_Pro_Mockup_-_2018_2_wp9rwr.png",
+    color: "#8A5916",
+    imgContainerClassName: "justify-end items-end pl-5",
+    link: "/projects/bigibrand",
+  },
+];
+
 export const volunteering = [
   {
     title: "Design Mentor at ADPlist",
