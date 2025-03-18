@@ -2,6 +2,7 @@ import { ArrowLinkIcon, ArrowLeftIcon } from "@/icons/arrow";
 import { spotlights } from "@/utils/data";
 import Link from "next/link";
 import { useRef } from "react";
+import Image from "./image";
 
 const Spotlight = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -25,11 +26,17 @@ const Spotlight = () => {
         {spotlights.map((data, index) => (
           <article
             key={index}
-            className="min-w-[307px] sm:min-w-[346px] w-[346px] h-[600px] min-h-[600px] sm:h-[680px] rounded-[32px] bg-cover bg-center px-5 sm:px-7 py-8 relative"
-            style={{ backgroundImage: `url(${data.bgImage})` }}
+            className="min-w-[307px] sm:min-w-[346px] w-[346px] h-[600px] min-h-[600px] sm:h-[680px] rounded-[32px] bg-[#949494] px-5 sm:px-7 py-8 relative overflow-clip group"
           >
-            <h3 className="font-semibold text-xl sm:text-2xl">{data.title}</h3>
-            <p className="mt-3.5 text-sm sm:text-base">{data.note}</p>
+            <Image
+              src={data.bgImage}
+              alt="cover image"
+              className="absolute inset-0 w-full h-full pointer-events-none transition-all duration-1000 group-hover:scale-110"
+            />
+            <h3 className="font-semibold text-xl sm:text-2xl relative">
+              {data.title}
+            </h3>
+            <p className="mt-3.5 text-sm sm:text-base relative">{data.note}</p>
             <Link
               href={data.link}
               target="_blank"

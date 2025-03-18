@@ -10,7 +10,7 @@ const CaseStudy = () => {
           href={project.link}
           key={index}
           style={{ backgroundColor: project.color }}
-          className="w-full min-h-[400px] rounded-3xl sm:rounded-[32px] backdrop-blur-md pt-5 sm:pt-9 border border-[#A6A6A659] relative overflow-hidden"
+          className="w-full min-h-[400px] rounded-3xl sm:rounded-[32px] backdrop-blur-md pt-5 sm:pt-9 border border-[#A6A6A659] relative overflow-hidden group"
           data-aos="fade-up"
         >
           <Image
@@ -26,7 +26,12 @@ const CaseStudy = () => {
               {project.description}
             </p>
           </div>
-          <div className={"flex relative " + project.imgContainerClassName}>
+          <div
+            className={
+              "flex relative transition-all duration-1000 group-hover:scale-110 " +
+              project.imgContainerClassName
+            }
+          >
             <Image
               src={project.image}
               alt={project.title}
