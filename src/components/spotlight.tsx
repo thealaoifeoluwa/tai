@@ -30,7 +30,11 @@ const Spotlight = () => {
           >
             <h3 className="font-semibold text-xl sm:text-2xl">{data.title}</h3>
             <p className="mt-3.5 text-sm sm:text-base">{data.note}</p>
-            <Link href={data.link} className="absolute right-5 bottom-5">
+            <Link
+              href={data.link}
+              target="_blank"
+              className="absolute right-5 bottom-5"
+            >
               <ArrowLinkIcon />
             </Link>
           </article>

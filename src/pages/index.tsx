@@ -35,24 +35,37 @@ export default function Home() {
           </h3>
           <h3 className="md:max-w-[500px]" data-aos="fade-up">
             I currently work at{" "}
-            <Link href="#" className="text-primary">
+            <Link
+              href="https://www.logos360.co.uk/"
+              target="_blank"
+              className="text-primary"
+            >
               Logos360
             </Link>
             , as the Lead Product designer where I manage a design team that
             contributes to making digital products more accessible to Nigerians.
             I also mentor designers around the world at{" "}
-            <Link href="#" className="text-primary">
+            <Link
+              href="https://www.bigibrand.com/"
+              target="_blank"
+              className="text-primary"
+            >
               BigiBrand
             </Link>{" "}
             and{" "}
-            <Link href="#" className="text-primary">
+            <Link
+              href="https://adplist.org/mentors/alao-ifeoluwa-ai"
+              target="_blank"
+              className="text-primary"
+            >
               ADPlist
             </Link>
           </h3>
         </div>
 
         <div className="mt-12 flex gap-6">
-          <button
+          <Link
+            href="mailto:alaoifeoluwa@gmail.com"
             data-aos="fade-up"
             className="bg-black dark:bg-white font-semibold flex gap-3 sm:gap-6 items-center p-3 sm:p-5 rounded-[10px] sm:rounded-2xl text-white dark:text-black"
           >
@@ -60,7 +73,7 @@ export default function Home() {
               Email me
             </span>{" "}
             <MailIcon />
-          </button>
+          </Link>
           <button
             data-aos="fade-up"
             className="bg-transparent font-semibold flex gap-3 sm:gap-6 items-center p-3 sm:p-5 rounded-[10px] sm:rounded-2xl border border-[#A6A6A6]"
@@ -78,9 +91,12 @@ export default function Home() {
           <h2 className="font-semibold text-xl sm:text-4xl text-[#949494]">
             Selected case studies
           </h2>
-          <button className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold">
+          <Link
+            href="/projects"
+            className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold"
+          >
             More
-          </button>
+          </Link>
         </div>
 
         <CaseStudy />
@@ -95,9 +111,12 @@ export default function Home() {
             <h2 className="font-semibold text-xl sm:text-4xl w-[70%] sm:w-full">
               Moments, Contributions and spotlights
             </h2>
-            <button className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold">
+            <Link
+              href="/about"
+              className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold"
+            >
               More
-            </button>
+            </Link>
           </div>
 
           <Spotlight />
@@ -110,9 +129,12 @@ export default function Home() {
             <h2 className="font-semibold text-xl sm:text-4xl text-[#949494]">
               Other Projects
             </h2>
-            <button className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold">
+            <Link
+              href="/projects"
+              className="bg-white dark:bg-black rounded-[10px] sm:rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-3 sm:p-5 font-semibold"
+            >
               More
-            </button>
+            </Link>
           </div>
 
           <OtherProjects />

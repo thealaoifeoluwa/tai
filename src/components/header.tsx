@@ -14,6 +14,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import GradientBg from "./gradientBg";
+import Router from "next/router";
 
 const Header = () => {
   const lenis = useLenis();
@@ -83,25 +84,40 @@ const Header = () => {
               <Link href="/about" className="hover:text-primary font-medium">
                 About
               </Link>
-              <button className="hover:text-primary font-medium">Resume</button>
+              <button
+                onClick={() =>
+                  Router.push(
+                    "https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
+                  )
+                }
+                className="hover:text-primary font-medium"
+              >
+                Resume
+              </button>
             </div>
 
             <div className="hidden md:flex gap-4">
-              <button>
+              <Link
+                href="https://www.linkedin.com/in/thealaoifeoluwa/"
+                target="_blank"
+              >
                 <LinkedinIcon />
-              </button>
-              <button>
+              </Link>
+              <Link href="mailto:alaoifeoluwa@gmail.com" target="_blank">
                 <MailIcon />
-              </button>
-              <button>
+              </Link>
+              <Link href="https://x.com/thealaoifeoluwa" target="_blank">
                 <XIcon />
-              </button>
-              <button>
+              </Link>
+              <Link
+                href="https://www.instagram.com/thealaoifeoluwa/?hl=en"
+                target="_blank"
+              >
                 <InstagramIcon />
-              </button>
-              <button>
-                <BehanceIcon />
-              </button>
+              </Link>
+              {/* <Link href="" target="_blank">
+              <BehanceIcon />
+            </Link> */}
             </div>
           </div>
         </div>
@@ -140,25 +156,40 @@ const Header = () => {
             <Link href="/about" className="text-[52px] font-medium">
               About
             </Link>
-            <button className="text-[52px] font-medium">Resume</button>
+            <button
+              onClick={() =>
+                Router.push(
+                  "https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
+                )
+              }
+              className="text-[52px] font-medium"
+            >
+              Resume
+            </button>
           </div>
 
           <div className="flex justify-center gap-4 mt-[15%]">
-            <button>
+            <Link
+              href="https://www.linkedin.com/in/thealaoifeoluwa/"
+              target="_blank"
+            >
               <LinkedinIcon />
-            </button>
-            <button>
+            </Link>
+            <Link href="mailto:alaoifeoluwa@gmail.com" target="_blank">
               <MailIcon />
-            </button>
-            <button>
+            </Link>
+            <Link href="https://x.com/thealaoifeoluwa" target="_blank">
               <XIcon />
-            </button>
-            <button>
+            </Link>
+            <Link
+              href="https://www.instagram.com/thealaoifeoluwa/?hl=en"
+              target="_blank"
+            >
               <InstagramIcon />
-            </button>
-            <button>
+            </Link>
+            {/* <Link href="" target="_blank">
               <BehanceIcon />
-            </button>
+            </Link> */}
           </div>
 
           <Link

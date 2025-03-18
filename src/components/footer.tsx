@@ -15,21 +15,27 @@ const Footer = () => {
           Let’s talk !
         </h4>
         <div className="flex mt-5 gap-6" data-aos="fade-up">
-          <Link href="#">
+          <Link
+            href="https://www.linkedin.com/in/thealaoifeoluwa/"
+            target="_blank"
+          >
             <LinkedinIcon />
           </Link>
-          <Link href="#">
+          <Link href="mailto:alaoifeoluwa@gmail.com" target="_blank">
             <MailIcon />
           </Link>
-          <Link href="#">
+          <Link href="https://x.com/thealaoifeoluwa" target="_blank">
             <XIcon />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.instagram.com/thealaoifeoluwa/?hl=en"
+            target="_blank"
+          >
             <InstagramIcon />
           </Link>
-          <Link href="#">
-            <BehanceIcon />
-          </Link>
+          {/* <Link href="" target="_blank">
+              <BehanceIcon />
+            </Link> */}
         </div>
       </div>
 

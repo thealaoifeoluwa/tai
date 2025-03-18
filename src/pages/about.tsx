@@ -37,7 +37,14 @@ const Page = () => {
             </p>
             <p className="font-medium mt-5">
               Outside of my day to day work, I{"'"}m also a gamer, football fan,
-              and a <button className="text-primary">mentor.</button>
+              and a{" "}
+              <Link
+                target="_blank"
+                href="https://adplist.org/mentors/alao-ifeoluwa-ai"
+                className="text-primary"
+              >
+                mentor.
+              </Link>
             </p>
           </div>
         </div>
