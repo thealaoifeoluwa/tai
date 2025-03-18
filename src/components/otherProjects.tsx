@@ -78,13 +78,13 @@ Designed and implemented a custom illustration system for the Transmit website, 
 
           <div className="flex gap-4 items-center mt-16" data-aos="fade-up">
             <Link
-              href="https://wwww.thisistransmit.com/"
+              href="https://www.thisistransmit.com/"
               className="bg-white dark:bg-black rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-5 font-semibold text-nowrap"
             >
               See the live version
             </Link>
             <Link
-              href="https://wwww.thisistransmit.com/"
+              href="https://www.thisistransmit.com/"
               className="bg-white dark:bg-black rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-2.5 font-semibold"
             >
               <PlainArrowIcon />

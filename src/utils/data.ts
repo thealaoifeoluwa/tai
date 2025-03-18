@@ -3,35 +3,35 @@ export const spotlights = [
     title: "Listen to my favorites Spotify playlist",
     note: "Music is a big part of my process when designing as this makes me focus without giving room to any distraction",
     bgImage:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559794/Tai%20portfolio/Frame_7_jeagdr.png",
-    link: "https://open.spotify.com/playlist/6s0GbOfds7kEyyfMuTSADF?si=3cf8ff16649c4b25",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742338652/Tai%20portfolio/Spotifu_m1y7jw.png",
+    link: "https://open.spotify.com/playlist/6s0GbOfds7kEyyfMuTSADF?si=3cf8ff16649c4b25", 
   },
   {
     title: "Book me as a mentor on ADPlist",
     note: "I also mentor designers around the world to help them navigate their career in design. Helping them out is something i’m passionate about.",
     bgImage:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559729/Tai%20portfolio/Frame_8_ni7yjy.png",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742338651/Tai%20portfolio/Adplist_qqa15z.png",
     link: "https://adplist.org/mentors/alao-ifeoluwa-ai",
   },
   {
     title: "Other faces of Tech",
     note: "I co-founded a non-coding tech community called other faces of tech, to provide resources and roadmaps for non-coding techies",
     bgImage:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559735/Tai%20portfolio/Frame_402179_fx3sag.png",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742338652/Tai%20portfolio/OFT_ooifhh.png",
     link: "https://www.otherfacesoftech.com/",
   },
   {
     title: "UIUX Tutor",
     note: "I taught ux/ui design at pedagogic hub",
     bgImage:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559770/Tai%20portfolio/Frame_402176_dgcpjc.png",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742338652/Tai%20portfolio/Pedagogic_cxlkse.png",
     link: "https://pedagogichub.com/",
   },
   {
     title: "Creators and creations",
     note: "Formed an active community of +150 creatives where projects are reviewed, corrected and creative resources are being shared for career and  personal development.",
     bgImage:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1741559743/Tai%20portfolio/Frame_402178_m3ajv8.png",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742338652/Tai%20portfolio/CNC_nastpp.png",
     link: "https://www.hellocnc.xyz/",
   },
 ];
@@ -93,7 +93,7 @@ export const volunteering = [
   {
     title: "Product Designer at Otherfaces.tech",
     date: "2022 - Present",
-    link: "https://www.otherfacesoftech.com/",
+    link: "https://www.otherfacesoftech.com/", 
   },
 ];
 
