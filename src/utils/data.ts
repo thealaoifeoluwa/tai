@@ -42,9 +42,9 @@ export const projects = [
     description:
       "This case study focuses on designing the Pienexa tool, enabling traders to trade fiat and crypto assets, p2p, copying trade online, providing a seamless multichannel experience.",
     image:
-      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742150098/Tai%20portfolio/Frame_1000008676_fv518i.png",
+      "https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742345609/Tai%20portfolio/Frame_1000008676_n27v6s.png",
     color: "#2E4DC0",
-    imgContainerClassName: "justify-center items-center ml-10",
+    imgContainerClassName: "justify-center items-center ml-10 mb-0",
     link: "/projects/pienexa",
   },
   {
