@@ -36,7 +36,7 @@ const Page = () => {
 
           <div className="flex gap-4 items-center mt-16 pb-10">
             <Link
-              href="#"
+              href="https://www.figma.com/design/c0WPzXJ2YZrG4x8fmiDTTf/Pienexa?node-id=3-3690&t=TmPsGacx04UzTOpl-1"
               className="bg-black text-white text-xs sm:text-base rounded-2xl border border-[#A6A6A659] p-5 font-semibold text-nowrap"
             >
               See the Design
