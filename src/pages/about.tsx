@@ -8,11 +8,11 @@ const Page = () => {
     <main className="sm:pt-36 xl:pt-56">
       <section className="sm:container flex flex-col sm:flex-row justify-center 2xl:justify-end relative">
         <Image
-          src="/images/alao-ifeoluwa.png"
+          src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742342986/Tai%20portfolio/alao-ifeoluwa_pdrvwe.png"
           alt="Alao Ifeoluwa"
           className="min-w-full sm:min-w-[400px] sm:relative left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
         />
-
+       
         <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-6 sm:mt-0">
           <h1
             className="text-[30px] lg:text-[40px] 2xl:text-[60px] font-semibold sm:text-center px-5"
@@ -25,26 +25,20 @@ const Page = () => {
             className="2xl:mt-5 text-sm lg:text-base 2xl:text-lg sm:bg-[#EDEDED] dark:sm:bg-[#121212] rounded-3xl px-5 lg:px-8 py-5 lg:py-10 sm:w-[300px] lg:w-[376px]"
           >
             <p className="font-medium">
-              My Name is Ifeoluwa Alao. I{"'"}m a designer that is BIG on
-              solving problems based on the data available or gotten from user
-              research/user testing.
+              I{"'"}m Ifeoluwa Alao, a product designer who combines data, research, and creativity to craft intuitive, high-impact experiences. I focus on usability, engagement, and business growth, ensuring design not only looks good but also solves real problems and delivers results.
             </p>
             <p className="font-medium mt-5">
-              My idea is not just making decisions, but making those decisions
-              based on key data or insights i{"'"}m able to get my hands on.
-              This makes me do good design, because good design is good
-              business.
+              I believe that great design is a powerful business tool, shaping products that truly resonate with users.
             </p>
             <p className="font-medium mt-5">
-              Outside of my day to day work, I{"'"}m also a gamer, football fan,
-              and a{" "}
+              Beyond work, I{"'"}m a sci-fi and animation fan and a passionate &nbsp;
               <Link
                 target="_blank"
                 href="https://adplist.org/mentors/alao-ifeoluwa-ai"
                 className="text-primary"
-              >
-                mentor.
-              </Link>
+              >mentor, &nbsp;
+              </Link> 
+              always eager to share knowledge and inspiring others.
             </p>
           </div>
         </div>
