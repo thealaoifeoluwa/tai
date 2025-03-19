@@ -14,7 +14,7 @@ const CaseStudy = () => {
           data-aos="fade-up"
         >
           <Image
-            src="/images/texture.png"
+            src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742344090/Tai%20portfolio/texture_iytbnb.svg"
             alt="texture image"
             className="absolute inset-0 !w-full !h-full"
           />
