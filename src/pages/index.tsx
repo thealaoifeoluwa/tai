@@ -4,8 +4,26 @@ import Spotlight from "@/components/spotlight";
 import MailIcon from "@/icons/mailIcon";
 import VideoIcon from "@/icons/videoIcon";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 export default function Home() {
+  const typedRef = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(typedRef.current, {
+      strings: ["product design", "product development", "ui ux designer"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true,
+      backDelay: 3000,
+    });
+
+    return () => {
+      typed.destroy(); // Cleanup on unmount
+    };
+  }, []);
+
   return (
     <main className="pt-[120px] sm:pt-[200px]">
       {/* HERO SECTION */}
@@ -23,7 +41,7 @@ export default function Home() {
         >
           I help businesses find the perfect balance between user needs &
           business objectives with a compelling{" "}
-          <span className="text-black dark:text-white">product design</span>.
+          <span className="text-black dark:text-white" ref={typedRef}></span>.
         </h2>
 
         <div className="flex md:flex-row flex-col gap-10 justify-between mt-8 leading-[25px] font-light">
@@ -105,7 +123,7 @@ export default function Home() {
       <section className="py-16 sm:py-44 bg-[#F8F8F8] dark:bg-[#171717] backdrop-blur-md rounded-[32px]">
         <div className="">
           <div
-            className="flex justify-between items-center px-5 sm:container"
+            className="flex justify-between items-center gap-5 px-5 sm:container"
             data-aos="fade-up"
           >
             <h2 className="font-semibold text-xl sm:text-4xl w-[70%] sm:w-full">
