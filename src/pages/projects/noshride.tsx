@@ -39,12 +39,14 @@ const Page = () => {
             <Link
               href="https://www.noshride.com/"
               className="bg-black text-white text-xs sm:text-base rounded-2xl border border-[#A6A6A659] p-5 font-semibold text-nowrap"
+              target="_blank"
             >
               See the live version
             </Link>
             <Link
               href="https://www.noshride.com/"
               className="bg-black rounded-2xl border border-[#A6A6A659] p-2.5 font-semibold"
+              target="_blank"
             >
               <PlainArrowIconAlt />
             </Link>
@@ -95,7 +97,8 @@ const Page = () => {
                   Other Collaboration
                 </span>
                 <Link
-                  href=""
+                  href="https://www.bigibrand.com/"
+                  target="_blank"
                   className="font-medium text-lg block underline underline-offset-2"
                 >
                   BigiBrand
@@ -435,17 +438,26 @@ const Page = () => {
             Learning & Challenges
           </h3>
           <p className="mt-5 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
-            Designing Noshride was a collaborative journey that reinforced the power of teamwork and user feedback. Early on, while testing with real users, a restaurant partner pointed out that the menu filtering system was confusing, 
-            while a delivery driver struggled with the order tracking interface. Working closely with my team, we simplified the filtering options and redesigned the tracking screen for better clarity. Scalability also became a shared 
-            priority—we started small but built a flexible design system that could easily expand to new cities without a complete overhaul.
+            Designing Noshride was a collaborative journey that reinforced the
+            power of teamwork and user feedback. Early on, while testing with
+            real users, a restaurant partner pointed out that the menu filtering
+            system was confusing, while a delivery driver struggled with the
+            order tracking interface. Working closely with my team, we
+            simplified the filtering options and redesigned the tracking screen
+            for better clarity. Scalability also became a shared priority—we
+            started small but built a flexible design system that could easily
+            expand to new cities without a complete overhaul.
           </p>
           <p className="mt-5 sm:text-lg text-[#A3A3A3]" data-aos="fade-up">
-            Balancing aesthetics with functionality was another key lesson. Initially, I focused on a sleek UI, but after discussions with developers and product managers, 
-            we realized that clear call-to-action buttons and an effortless checkout flow were more critical for conversions. Throughout the process, 
-            close collaboration with engineers helped translate our design vision into reality, making Noshride a seamless and inclusive food delivery experience for all.
+            Balancing aesthetics with functionality was another key lesson.
+            Initially, I focused on a sleek UI, but after discussions with
+            developers and product managers, we realized that clear
+            call-to-action buttons and an effortless checkout flow were more
+            critical for conversions. Throughout the process, close
+            collaboration with engineers helped translate our design vision into
+            reality, making Noshride a seamless and inclusive food delivery
+            experience for all.
           </p>
-          
-        
         </div>
       </section>
 

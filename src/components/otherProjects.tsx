@@ -46,13 +46,16 @@ const OtherProjects = () => {
             Illustration system for Noshride Beta launch
           </h4>
           <p className="mt-5" data-aos="fade-up">
-            Crafted and implemented a unique illustration system for Noshride website, seamlessly aligning with and enhancing the Noshride brand identity for a cohesive visual experience.
+            Crafted and implemented a unique illustration system for Noshride
+            website, seamlessly aligning with and enhancing the Noshride brand
+            identity for a cohesive visual experience.
           </p>
 
           <div className="flex gap-4 items-center mt-16" data-aos="fade-up">
             <Link
               href="https://www.noshride.com/"
               className="bg-white dark:bg-black rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-5 font-semibold text-nowrap"
+              target="_blank"
             >
               See the live version
             </Link>
@@ -72,14 +75,16 @@ const OtherProjects = () => {
             Illustration system for Transmit
           </h4>
           <p className="mt-5" data-aos="fade-up">
-           
-Designed and implemented a custom illustration system for the Transmit website, ensuring seamless alignment with the brand identity for a cohesive and engaging visual experience.
+            Designed and implemented a custom illustration system for the
+            Transmit website, ensuring seamless alignment with the brand
+            identity for a cohesive and engaging visual experience.
           </p>
 
           <div className="flex gap-4 items-center mt-16" data-aos="fade-up">
             <Link
               href="https://www.thisistransmit.com/"
               className="bg-white dark:bg-black rounded-2xl text-xs sm:text-base border border-[#A6A6A659] p-5 font-semibold text-nowrap"
+              target="_blank"
             >
               See the live version
             </Link>

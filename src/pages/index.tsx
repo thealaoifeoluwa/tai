@@ -12,7 +12,13 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["product design", "product development", "ui ux designer"],
+      strings: [
+        "product design",
+        "creative design",
+        "web design",
+        "app design",
+        "brand design",
+      ],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true,

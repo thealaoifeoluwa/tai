@@ -38,12 +38,14 @@ const Page = () => {
             <Link
               href="https://www.figma.com/design/c0WPzXJ2YZrG4x8fmiDTTf/Pienexa?node-id=3-3690&t=TmPsGacx04UzTOpl-1"
               className="bg-black text-white text-xs sm:text-base rounded-2xl border border-[#A6A6A659] p-5 font-semibold text-nowrap"
+              target="_blank"
             >
               See the Design
             </Link>
             <Link
               href="https://www.figma.com/design/c0WPzXJ2YZrG4x8fmiDTTf/Pienexa?node-id=3-3690&t=TmPsGacx04UzTOpl-1"
               className="bg-black rounded-2xl border border-[#A6A6A659] p-2.5 font-semibold"
+              target="_blank"
             >
               <PlainArrowIconAlt />
             </Link>
@@ -67,10 +69,10 @@ const Page = () => {
               </p>
               <p className="mt-5 sm:text-lg" data-aos="fade-up">
                 As a product designer, I collaborated with another product
-                designer based in Milton Keynes, England, United Kingdom and work closely with the
-                BigiBrand{"'"}s Brand team to create a revolutionary trading
-                experience, crafting a strong brand strategy and visual identity
-                for mobile and web.
+                designer based in Milton Keynes, England, United Kingdom and
+                work closely with the BigiBrand{"'"}s Brand team to create a
+                revolutionary trading experience, crafting a strong brand
+                strategy and visual identity for mobile and web.
               </p>
             </div>
 
@@ -100,12 +102,14 @@ const Page = () => {
                 </span>
                 <Link
                   href="https://www.linkedin.com/in/simisoladeniran/"
+                  target="_blank"
                   className="font-medium sm:text-lg block underline underline-offset-2"
                 >
                   Adeniran Simi
                 </Link>
                 <Link
                   href="https://www.bigibrand.com/"
+                  target="_blank"
                   className="font-medium text-lg block underline underline-offset-2"
                 >
                   BigiBrand
