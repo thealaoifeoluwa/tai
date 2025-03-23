@@ -1,4 +1,5 @@
 import Image from "@/components/image";
+import WavingHand from "@/components/waving";
 import { PlainArrowIcon } from "@/icons/arrow";
 import { certifications, volunteering } from "@/utils/data";
 import Link from "next/link";
@@ -10,15 +11,15 @@ const Page = () => {
         <Image
           src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742342986/Tai%20portfolio/alao-ifeoluwa_pdrvwe.png"
           alt="Alao Ifeoluwa"
-          className="min-w-full sm:min-w-[400px] sm:relative left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
+          className="min-w-full sm:min-w-[400px] sm:relative scale-105 sm:scale-100 left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
         />
 
-        <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-6 sm:mt-0">
+        <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-10 sm:mt-0">
           <h1
             className="text-[30px] lg:text-[40px] 2xl:text-[60px] font-semibold sm:text-center px-5"
             data-aos="fade-up"
           >
-            Hola👋
+            Hola <WavingHand className="md:size-16 mb-6" />
           </h1>
           <div
             data-aos="fade-up"

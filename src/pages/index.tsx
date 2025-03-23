@@ -1,6 +1,7 @@
 import CaseStudy from "@/components/caseStudy";
 import OtherProjects from "@/components/otherProjects";
 import Spotlight from "@/components/spotlight";
+import WavingHand from "@/components/waving";
 import MailIcon from "@/icons/mailIcon";
 import VideoIcon from "@/icons/videoIcon";
 import Link from "next/link";
@@ -38,7 +39,7 @@ export default function Home() {
           className="text-[28px] sm:text-[36px] leading-[38px] sm:leading-[46px] font-semibold"
           data-aos="fade-up"
         >
-          Hi,👋 <br />
+          Hi, <WavingHand /> <br />
           I’m Ifeoluwa Alao.
         </h1>
         <h2
