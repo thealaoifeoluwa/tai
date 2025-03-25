@@ -84,16 +84,13 @@ const Header = () => {
               <Link href="/about" className="hover:text-primary font-medium">
                 About
               </Link>
-              <button
-                onClick={() =>
-                  Router.push(
-                    "https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
-                  )
-                }
+              <Link
+                href="https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
+                target="_blank"
                 className="hover:text-primary font-medium"
               >
                 Resume
-              </button>
+              </Link>
             </div>
 
             <div className="hidden md:flex gap-4">
@@ -156,16 +153,13 @@ const Header = () => {
             <Link href="/about" className="text-[52px] font-medium">
               About
             </Link>
-            <button
-              onClick={() =>
-                Router.push(
-                  "https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
-                )
-              }
+            <Link
+              href="https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
+              target="_blank"
               className="text-[52px] font-medium"
             >
               Resume
-            </button>
+            </Link>
           </div>
 
           <div className="flex justify-center gap-4 mt-[15%]">

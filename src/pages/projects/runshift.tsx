@@ -38,12 +38,14 @@ const Page = () => {
             <Link
               href="#"
               className="bg-black text-white text-xs sm:text-base rounded-2xl border border-[#A6A6A659] p-5 font-semibold text-nowrap"
+              target="_blank"
             >
               See the live version
             </Link>
             <Link
               href="#"
               className="bg-black rounded-2xl border border-[#A6A6A659] p-2.5 font-semibold"
+              target="_blank"
             >
               <PlainArrowIconAlt />
             </Link>

@@ -1,4 +1,5 @@
 import Image from "@/components/image";
+import WavingHand from "@/components/waving";
 import { PlainArrowIcon } from "@/icons/arrow";
 import { certifications, volunteering } from "@/utils/data";
 import Link from "next/link";
@@ -10,34 +11,41 @@ const Page = () => {
         <Image
           src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742342986/Tai%20portfolio/alao-ifeoluwa_pdrvwe.png"
           alt="Alao Ifeoluwa"
-          className="min-w-full sm:min-w-[400px] sm:relative left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
+          className="min-w-full sm:min-w-[400px] sm:relative scale-105 sm:scale-100 left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
         />
-       
-        <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-6 sm:mt-0">
+
+        <div className="static sm:absolute left-[7%] md:left-[15%] 2xl:left-10 top-1/2 sm:-translate-y-1/2 mt-10 sm:mt-0">
           <h1
             className="text-[30px] lg:text-[40px] 2xl:text-[60px] font-semibold sm:text-center px-5"
             data-aos="fade-up"
           >
-            Hola👋
+            Hola <WavingHand className="md:size-16 mb-6" />
           </h1>
           <div
             data-aos="fade-up"
             className="2xl:mt-5 text-sm lg:text-base 2xl:text-lg sm:bg-[#EDEDED] dark:sm:bg-[#121212] rounded-3xl px-5 lg:px-8 py-5 lg:py-10 sm:w-[300px] lg:w-[376px]"
           >
             <p className="font-medium">
-              I{"'"}m Ifeoluwa Alao, a product designer who combines data, research, and creativity to craft intuitive, high-impact experiences. I focus on usability, engagement, and business growth, ensuring design not only looks good but also solves real problems and delivers results.
+              I{"'"}m Ifeoluwa Alao, a product designer who combines data,
+              research, and creativity to craft intuitive, high-impact
+              experiences. I focus on usability, engagement, and business
+              growth, ensuring design not only looks good but also solves real
+              problems and delivers results.
             </p>
             <p className="font-medium mt-5">
-              I believe that great design is a powerful business tool, shaping products that truly resonate with users.
+              I believe that great design is a powerful business tool, shaping
+              products that truly resonate with users.
             </p>
             <p className="font-medium mt-5">
-              Beyond work, I{"'"}m a sci-fi and animation fan and a passionate &nbsp;
+              Beyond work, I{"'"}m a sci-fi and animation fan and a passionate
+              &nbsp;
               <Link
                 target="_blank"
                 href="https://adplist.org/mentors/alao-ifeoluwa-ai"
                 className="text-primary"
-              >mentor, &nbsp;
-              </Link> 
+              >
+                mentor, &nbsp;
+              </Link>
               always eager to share knowledge and inspiring others.
             </p>
           </div>
@@ -198,6 +206,7 @@ const Box = ({ data }: { data: (typeof volunteering)[0] }) => {
       <div className="pt-10 md:pt-0">
         <Link
           href={link}
+          target="_blank"
           className="p-2 md:p-3 lg:p-7 rounded-xl md:rounded-2xl lg:rounded-3xl grid place-content-center bg-white dark:bg-black hover:bg-primary dark:hover:bg-primary transition-all duration-500"
         >
           <PlainArrowIcon className="size-3.5 md:size-10" />

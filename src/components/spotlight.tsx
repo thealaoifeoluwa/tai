@@ -18,10 +18,10 @@ const Spotlight = () => {
   };
 
   return (
-    <div className="mt-9 relative text-white sm:container" data-aos="fade-up">
+    <div className="mt-9 relative text-white lg:container" data-aos="fade-up">
       <div
         ref={containerRef}
-        className="flex gap-3 overflow-x-scroll scrollbar scroll-smooth px-5 sm:px-0"
+        className="flex gap-3 overflow-x-scroll scrollbar scroll-smooth px-5 sm:px-10 lg:px-0"
       >
         {spotlights.map((data, index) => (
           <article
@@ -50,13 +50,13 @@ const Spotlight = () => {
 
       <button
         onClick={() => showMore("prev")}
-        className="absolute -left-10 top-[45%] -translate-y-1/2 hidden md:inline-block"
+        className="absolute left-0 xl:-left-10 top-[45%] -translate-y-1/2 hidden lg:inline-block"
       >
         <ArrowLeftIcon />
       </button>
       <button
         onClick={() => showMore("next")}
-        className="absolute -right-10 top-[45%] -translate-y-1/2 hidden md:inline-block"
+        className="absolute right-0 xl:-right-10 top-[45%] -translate-y-1/2 hidden lg:inline-block"
       >
         <span className="rotate-180 inline-block">
           <ArrowLeftIcon />

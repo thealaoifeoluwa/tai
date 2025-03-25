@@ -4,7 +4,6 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <title>tai-design</title>
       <Head>
         <script
           dangerouslySetInnerHTML={{
