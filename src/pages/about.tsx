@@ -89,7 +89,7 @@ const Page = () => {
                 Companies such as:‍
                 <br />
                 <br />
-                1.  Pienexa - Designed the company's new website, web app, and mobile app for a cryptocurrency platform,
+                1.  Pienexa - Designed the a new website, web app, and mobile app for a cryptocurrency platform,
                  increasing user engagement by 30% and mobile app downloads by 20%, driving market expansion.
                 <br />
                 <br />
