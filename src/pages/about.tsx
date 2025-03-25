@@ -69,32 +69,31 @@ const Page = () => {
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
-                Lead Product Designer at SunFi <br />
-                2023 - Present • Nigeria <br />
-                I currently lead a design team that contributes to making solar
-                power more accessible to Nigerians through Financing, powering
-                homes through a reliable energy source, and at the same time
-                increasing Jobs in Nigeria by designing products that allow us
-                partner with solar installers and manufacturers
+                Lead Product Designer at Logos360<br />
+                <span className="text-zinc-500 font-semibold">2023 - Present • United Kingdom</span> <br />
+                I currently work at Logos360, as the Lead Product designer where I manage a design 
+                team that contributes to making digital products more accessible. 
                 <br />
                 <br />
-                Senior Associate at Fourthcanvas <br />
-                2021 - Present • Nigeria <br />
-                So far contributed to the success of brands through Fouthcanvas.
+                Creative Director at BigiBrand <br />
+                 <span className="text-zinc-500 font-semibold">2021 - Present • Nigeria</span><br />
+                So far contributed to the success of brands through BigiBrand.
                 Companies such as:‍
                 <br />
                 <br />
-                1.  Nomba - Helped the company design its new website &
-                webapp/mobile app to strengthen it expansion that helped them
-                raise a $30 million pre-Series B.
+                1.  Pienexa - Designed the company's new website, web app, and mobile app for a cryptocurrency platform,
+                 increasing user engagement by 30% and mobile app downloads by 20%, driving market expansion.
                 <br />
                 <br />
-                2.  Parkway - Helped the company unveil its rebrand to support
-                strategic vision for Fintech startups.
+                2.  Transmit - Helped the company unveil its rebrand to support
+                strategic vision for a digital radio advertisment and won the most
+                Innovative AdTech Company at 2024 Brandcom Awards.
                 <br />
                 <br />
-                3.  Ventures Platform — Helped redesign the company’s website to
-                back founders building the future of Africa
+                3.  Otherfaces.tech — Led a team of five(5) on design thinking, user 
+                research and usability testing to build a platform
+                where non-coding techies can follow a career
+                roadmap and read the stories of leaders in their field.
               </p>
             </div>
           </article>
@@ -103,26 +102,25 @@ const Page = () => {
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
-                Contract product designer at Anchor <br />
-                2022 - 2023 • Nigeria
+                Contract Product Designer at Renevation lab <br />
+                <span className="text-zinc-500 font-semibold">2022 - 2025 • United State</span>
                 <br />
                 <br />
-                I contributed to the company raising a $1m Pre-seed round from
-                major African VCs and also get into the Y Combinator Summer
-                batch 2022 with the re-design of the public beta API
-                infrastructure for launch to ensure a very solid user experience
-                for end users or consumers — collaborating with managers to
+                I contributed to the company to build a product worthy of Y Combinator application — collaborating with managers to
                 design prototypes to test, validate assumptions and solutions.
                 <br />
                 <br />
-                Founding Product Designer at Rex Africa <br />
-                2021 - 2022 • Nigeria
+                Contract Product Designer at Pedagogic Hub <br />
+                <span className="text-zinc-500 font-semibold">2022 - 2023  • Nigeria</span><br />
+                <br />Redesigned the e-learning platform, which resulted in
+                a 30% increase in user satisfaction and a 10%
+                decrease in bounce rate.
                 <br />
-                <br />I helped the company (Savyt) with strategic research and
-                re-designed the public beta to deliver high quality experiences
-                for different user personal use cases, which later got acquired
-                by Rex Africa (https://www.rexafrica.com/) in 2021 after the
-                launch allowing the product reach its full potential.
+                <br />
+                Designed brand identity guideline, created social
+                media design templates for the junior designer
+                on the team and organizes training session for a
+                design team of three (3).
               </p>
             </div>
           </article>
@@ -131,22 +129,18 @@ const Page = () => {
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
-                Visual Designer at Daydreams <br />
-                2019 - 2020 • Nigeria
+                Visual Designer at Ensapuh <br />
+                <span className="text-zinc-500 font-semibold">2020 - 2022 • Nigeria</span>
                 <br />
                 <br />
-                Customer Experience Designer at Voltacharger 2019 - 2020 •
-                Australia (Remote)
+                Creators and Creations - Community Lead <br />
+                <span className="text-zinc-500 font-semibold">2019 - Present • Nigeria (Remote)</span>
                 <br />
                 <br />
-                I contributed to the company raising over $300,000 on two
-                different product Campaigns through indiegogo.
+                Formed an active community of +150 creatives where
+                projects are reviewed, corrected and creative
+                resources are being shared for personal development.
                 <br />
-                <br />
-                1. $84,940 in Sept 2019
-                <br />
-                <br />
-                2. $244,699 in Oct 2020
               </p>
             </div>
           </article>
