@@ -130,7 +130,11 @@ const Header = () => {
         <GradientBg />
         <div className="flex justify-between items-center py-5">
           <div className="flex gap-3.5 md:gap-5 items-center">
-            <Link href="/" className="font-bold text-base md:text-2xl">
+            <Link
+              onClick={() => setOpenDropdown(false)}
+              href="/"
+              className="font-bold text-base md:text-2xl"
+            >
               Tai.design
             </Link>
             <button
@@ -147,13 +151,22 @@ const Header = () => {
         </div>
         <div className="mt-7 flex flex-col gap-2 justify-between h-[calc(90%_-_20px)]">
           <div className="flex flex-col items-center justify-between h-[40%]">
-            <Link href="/projects" className="text-[52px] font-medium">
+            <Link
+              onClick={() => setOpenDropdown(false)}
+              href="/projects"
+              className="text-[52px] font-medium"
+            >
               Project
             </Link>
-            <Link href="/about" className="text-[52px] font-medium">
+            <Link
+              onClick={() => setOpenDropdown(false)}
+              href="/about"
+              className="text-[52px] font-medium"
+            >
               About
             </Link>
             <Link
+              onClick={() => setOpenDropdown(false)}
               href="https://drive.google.com/file/d/14_EHwkRhRmq0DvyDBUPfyun6s4smN3jc/view"
               target="_blank"
               className="text-[52px] font-medium"
@@ -164,29 +177,40 @@ const Header = () => {
 
           <div className="flex justify-center gap-4 mt-[15%]">
             <Link
+              onClick={() => setOpenDropdown(false)}
               href="https://www.linkedin.com/in/thealaoifeoluwa/"
               target="_blank"
             >
               <LinkedinIcon />
             </Link>
-            <Link href="mailto:alaoifeoluwa@gmail.com" target="_blank">
+            <Link
+              onClick={() => setOpenDropdown(false)}
+              href="mailto:alaoifeoluwa@gmail.com"
+              target="_blank"
+            >
               <MailIcon />
             </Link>
-            <Link href="https://x.com/thealaoifeoluwa" target="_blank">
+            <Link
+              onClick={() => setOpenDropdown(false)}
+              href="https://x.com/thealaoifeoluwa"
+              target="_blank"
+            >
               <XIcon />
             </Link>
             <Link
+              onClick={() => setOpenDropdown(false)}
               href="https://www.instagram.com/thealaoifeoluwa/?hl=en"
               target="_blank"
             >
               <InstagramIcon />
             </Link>
-            {/* <Link href="" target="_blank">
+            {/* <Link onClick={() => setOpenDropdown(false)} href="" target="_blank">
               <BehanceIcon />
             </Link> */}
           </div>
 
           <Link
+            onClick={() => setOpenDropdown(false)}
             href="mailto:alaoifeoluwa@gmail.com"
             className="text-[#A6A6A659] text-center text-[42px] font-medium"
           >

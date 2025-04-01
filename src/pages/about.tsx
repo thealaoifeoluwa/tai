@@ -6,9 +6,10 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <main className="sm:pt-36 xl:pt-56">
+    <main className="sm:pt-36 xl:pt-56 overflow-hidden">
       <section className="sm:container flex flex-col sm:flex-row justify-center 2xl:justify-end relative">
         <Image
+          data-aos="fade-in"
           src="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1742342986/Tai%20portfolio/alao-ifeoluwa_pdrvwe.png"
           alt="Alao Ifeoluwa"
           className="min-w-full sm:min-w-[400px] sm:relative scale-105 sm:scale-100 left-[13%] 2xl:static rounded-b-2xl sm:rounded-b-[32px] sm:rounded-t-[32px]"
@@ -77,31 +78,40 @@ const Page = () => {
             <span className="size-6 rounded-full bg-[#00FF44] absolute top-1/2 -left-3 md:left-1/2 -translate-y-1/2 md:-translate-x-1/2" />
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
-                Lead Product Designer at Logos360<br />
-                <span className="text-zinc-500 font-semibold">2023 - Present • United Kingdom</span> <br />
-                I currently work at Logos360, as the Lead Product designer where I manage a design 
-                team that contributes to making digital products more accessible. 
+                Lead Product Designer at Logos360
+                <br />
+                <span className="text-zinc-500 font-semibold">
+                  2023 - Present • United Kingdom
+                </span>{" "}
+                <br />
+                I currently work at Logos360, as the Lead Product designer where
+                I manage a design team that contributes to making digital
+                products more accessible.
                 <br />
                 <br />
                 Creative Director at BigiBrand <br />
-                 <span className="text-zinc-500 font-semibold">2021 - Present • Nigeria</span><br />
+                <span className="text-zinc-500 font-semibold">
+                  2021 - Present • Nigeria
+                </span>
+                <br />
                 So far contributed to the success of brands through BigiBrand.
                 Companies such as:‍
                 <br />
                 <br />
-                1.  Pienexa - Designed the a new website, web app, and mobile app for a cryptocurrency platform,
-                 increasing user engagement by 30% and mobile app downloads by 20%, driving market expansion.
+                1.  Pienexa - Designed the a new website, web app, and mobile
+                app for a cryptocurrency platform, increasing user engagement by
+                30% and mobile app downloads by 20%, driving market expansion.
                 <br />
                 <br />
                 2.  Transmit - Helped the company unveil its rebrand to support
-                strategic vision for a digital radio advertisment and won the most
-                Innovative AdTech Company at 2024 Brandcom Awards.
+                strategic vision for a digital radio advertisment and won the
+                most Innovative AdTech Company at 2024 Brandcom Awards.
                 <br />
                 <br />
-                3.  Otherfaces.tech — Led a team of five(5) on design thinking, user 
-                research and usability testing to build a platform
-                where non-coding techies can follow a career
-                roadmap and read the stories of leaders in their field.
+                3.  Otherfaces.tech — Led a team of five(5) on design thinking,
+                user research and usability testing to build a platform where
+                non-coding techies can follow a career roadmap and read the
+                stories of leaders in their field.
               </p>
             </div>
           </article>
@@ -111,24 +121,29 @@ const Page = () => {
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
                 Contract Product Designer at Renevation lab <br />
-                <span className="text-zinc-500 font-semibold">2022 - 2025 • United State</span>
+                <span className="text-zinc-500 font-semibold">
+                  2022 - 2025 • United State
+                </span>
                 <br />
                 <br />
-                I contributed to the company to build a product worthy of Y Combinator application — collaborating with managers to
-                design prototypes to test, validate assumptions and solutions.
+                I contributed to the company to build a product worthy of Y
+                Combinator application — collaborating with managers to design
+                prototypes to test, validate assumptions and solutions.
                 <br />
                 <br />
                 Contract Product Designer at Pedagogic Hub <br />
-                <span className="text-zinc-500 font-semibold">2022 - 2023  • Nigeria</span><br />
-                <br />Redesigned the e-learning platform, which resulted in
-                a 30% increase in user satisfaction and a 10%
-                decrease in bounce rate.
+                <span className="text-zinc-500 font-semibold">
+                  2022 - 2023 • Nigeria
+                </span>
                 <br />
                 <br />
-                Designed brand identity guideline, created social
-                media design templates for the junior designer
-                on the team and organizes training session for a
-                design team of three (3).
+                Redesigned the e-learning platform, which resulted in a 30%
+                increase in user satisfaction and a 10% decrease in bounce rate.
+                <br />
+                <br />
+                Designed brand identity guideline, created social media design
+                templates for the junior designer on the team and organizes
+                training session for a design team of three (3).
               </p>
             </div>
           </article>
@@ -138,16 +153,20 @@ const Page = () => {
             <div className="md:w-[320px] lg:w-[407px]">
               <p data-aos="fade-up">
                 Visual Designer at Ensapuh <br />
-                <span className="text-zinc-500 font-semibold">2020 - 2022 • Nigeria</span>
+                <span className="text-zinc-500 font-semibold">
+                  2020 - 2022 • Nigeria
+                </span>
                 <br />
                 <br />
                 Creators and Creations - Community Lead <br />
-                <span className="text-zinc-500 font-semibold">2019 - Present • Nigeria (Remote)</span>
+                <span className="text-zinc-500 font-semibold">
+                  2019 - Present • Nigeria (Remote)
+                </span>
                 <br />
                 <br />
-                Formed an active community of +150 creatives where
-                projects are reviewed, corrected and creative
-                resources are being shared for personal development.
+                Formed an active community of +150 creatives where projects are
+                reviewed, corrected and creative resources are being shared for
+                personal development.
                 <br />
               </p>
             </div>
